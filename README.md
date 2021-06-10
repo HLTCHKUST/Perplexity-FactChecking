@@ -17,11 +17,20 @@ The details of test set can be found in the paper.
 After you download, please locate the data files under directory 'data/' 
 
 #### 2. Obtain Evidence-conditioned Perplexity
-By running the below bash script, files with perplexity scores will be saved in "/ppl_results" directory. 
+By running the below script, files with perplexity scores will be saved in "/ppl_results" directory. 
+
+**a. Causal Language Model**
 
 ```
-    bash obtain_evidence_conditioned_perplexity.sh
+    bash obtain_evidence_conditioned_perplexity_clm.sh
 ```
+
+**b. Masked Language Model**
+
+```
+    bash obtain_evidence_conditioned_perplexity_mlm.sh 
+```
+
 
 #### 3. Hyper-parameter search (of the optimal threshold), and evaluate performance 
 
