@@ -11,8 +11,10 @@
 
 #### Dataset Preparation
 
+To download the testset with evidence, please fill in the request form - https://forms.gle/3TDnqv5Y8kFTN8Cu6
+The details of test set can be found in the paper. 
 
-
+After you download, please locate the data files under directory 'data/' 
 
 #### Dependency Installation
 
