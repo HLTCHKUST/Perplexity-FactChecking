@@ -35,7 +35,7 @@ By running the below script, files with perplexity scores will be saved in "/ppl
 #### 3. Hyper-parameter search (of the optimal threshold), and evaluate performance 
 
 ```
-TODO code
+    bash run_few_shot.sh
 ```
 
 ## Citation:
