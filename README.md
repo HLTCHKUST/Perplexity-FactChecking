@@ -7,18 +7,27 @@
 
 <img align="center" src="plot/method_illustration.png" width="60%">
 
-## Setup/Installation
+## How to run
 
-#### Dataset Preparation
+#### 1. Dataset Preparation
 
 To download the testset with evidence, please fill in the request form - https://forms.gle/3TDnqv5Y8kFTN8Cu6
 The details of test set can be found in the paper. 
 
 After you download, please locate the data files under directory 'data/' 
 
-#### Dependency Installation
+#### 2. Obtain Evidence-conditioned Perplexity
+By running the below bash script, files with perplexity scores will be saved in "/ppl_results" directory. 
 
+```
+    bash obtain_evidence_conditioned_perplexity.sh
+```
 
+#### 3. Hyper-parameter search (of the optimal threshold), and evaluate performance 
+
+```
+TODO code
+```
 
 ## Citation:
 
