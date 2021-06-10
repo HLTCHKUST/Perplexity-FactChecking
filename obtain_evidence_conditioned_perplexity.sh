@@ -1,9 +1,9 @@
 # covid myth
-COVID_MYTH_PATH='data/covid_myth_test_v3.jsonl'
-COVID_MYTH_EXP_NAME=covid_myth
+COVID_MYTH_PATH='data/covid_scientific.jsonl'
+COVID_MYTH_EXP_NAME=covid_scientific
 
 # covid politifact
-COVID_POLITIFACT_W_JUSTIFICATION_PATH='data/test_covid19_justification.jsonl'
+COVID_POLITIFACT_W_JUSTIFICATION_PATH='data/covid_social.jsonl'
 COVID_POLITIFACT_EXP_NAME=covid_politifact_justification
 
 # fever
