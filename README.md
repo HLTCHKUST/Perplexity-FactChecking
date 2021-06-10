@@ -28,7 +28,7 @@ By running the below script, files with perplexity scores will be saved in "/ppl
 **b. Masked Language Model**
 
 ```
-    bash obtain_evidence_conditioned_perplexity_mlm.sh 
+    bash mlm/obtain_evidence_conditioned_perplexity_mlm.sh 
 ```
 
 
@@ -60,5 +60,6 @@ If you find this paper and code useful, please cite our paper:
 ```
 
 ## Acknowledgement
-This repository is implemented using [**Huggingface**](https://github.com/huggingface/transformers) codebase.
+This repository is implemented using [**Huggingface**](https://github.com/huggingface/transformers) codebase. 
+For MLM, we utilize code from [**MLM-scoring Github**](https://github.com/awslabs/mlm-scoring)
 
